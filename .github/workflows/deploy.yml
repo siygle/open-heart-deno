@@ -19,4 +19,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "siygle-open-heart-deno"
-          entrypoint: "./main.ts" # TODO: update entrypoint
+          entrypoint: "./main.ts"
+          import-map: import-map.json
