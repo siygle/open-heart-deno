@@ -20,4 +20,4 @@ jobs:
         with:
           project: "siygle-open-heart-deno"
           entrypoint: "./main.ts"
-          import-map: import-map.json
+          import-map: import_map.json
